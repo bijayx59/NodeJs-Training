@@ -29,3 +29,22 @@ const evenodd = (num)=>{
         return console.log(`${num}is Odd`);
     }
 }
+
+//Create
+//A global variable x =5
+//A function test()
+//Inside it, create a local variable y =10
+// print both x and y
+// outside the function, print only x
+// printing y should give 
+
+
+let x = 5;
+function test() {
+    const y = 10;
+    console.log(y)
+    console.log(x)
+}
+
+//console.log(y) Error as it is a local variable/functional scope
+console.log(x)
