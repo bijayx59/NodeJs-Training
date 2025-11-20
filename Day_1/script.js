@@ -48,3 +48,19 @@ function test() {
 
 //console.log(y) Error as it is a local variable/functional scope
 console.log(x)
+
+
+//task : Create a global variable score = 50
+//create a function updated score();
+//inside the function, creare alocal variable score = 100;
+//print score inside the functio
+
+let score = 50;
+function updatedScore (){
+    let score = 100;
+    console.log(score)
+}
+console.log(score);
+updatedScore();
+updatedScore();
+console.log(score);
