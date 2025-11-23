@@ -55,12 +55,23 @@ console.log(x)
 //inside the function, creare alocal variable score = 100;
 //print score inside the functio
 
-let score = 50;
-function updatedScore (){
-    let score = 100;
-    console.log(score)
+// let score = 50;
+// function updatedScore (){
+//     let score = 100;
+//     console.log(score)
+// }
+// console.log(score);
+// updatedScore();
+// updatedScore();
+// console.log(score);
+
+
+let points = 0;
+function playGame(){
+    let points = 50;
+    points = points + 10;
+    console.log(points);
 }
-console.log(score);
-updatedScore();
-updatedScore();
-console.log(score);
+console.log(points)
+playGame()
+playGame()
